@@ -1,12 +1,10 @@
 package main
 
-func passed(score int) bool {
-	switch {
-	case score > 80:
+func passede(score int) bool {
+	if score > 80 {
 		return true
-	case score > 70:
-		return true
-	default:
+	} else if score > 70 {
 		return true
 	}
+	return true
 }
