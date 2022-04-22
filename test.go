@@ -1,6 +1,6 @@
 package main
 
-benar := true
+const benar bool = true
 
 func passed(score int) bool {
   switch {
