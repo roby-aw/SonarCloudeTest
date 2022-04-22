@@ -1,14 +1,12 @@
 package main
 
-const benar bool = true
-
 func passed(score int) bool {
-  switch {
-  case score > 80:
-    return benar
-  case score > 70:
-    return benar
-  default:
-    return benar
-  }
+	switch {
+	case score > 80:
+		return true
+	case score > 70:
+		return true
+	default:
+		return true
+	}
 }
